@@ -11,7 +11,8 @@ extra-deps:
 - sparse-lin-alg-0.4.3
 - vector-0.12.0.0
 - eigen-2.1.7
-- containers-0.5.8.1
+- containers-0.5.11.0
+#- containers-0.5.8.1
 
 flags: {}
 

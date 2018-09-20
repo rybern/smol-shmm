@@ -1,1 +1,1 @@
-# compositional-hmm
+# smol-shmm
