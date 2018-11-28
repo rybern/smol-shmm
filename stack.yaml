@@ -1,5 +1,5 @@
 # resolver: lts-11.22
-resolver: lts-9.12
+resolver: lts-12.14
 
 packages:
 - '.'
@@ -9,15 +9,17 @@ packages:
   extra-dep: true
 
 extra-deps: 
-# - sparse-lin-alg-0.4.3
-#- vector-0.12.0.0
 - eigen-3.3.4.1
 - containers-0.5.11.0
-#- containers-0.5.8.1
+- gamma-0.9.0.2
+- normaldistribution-1.1.0.3
+- continued-fractions-0.9.1.1
+- converge-0.1.0.1
+
 
 flags: {}
 
 extra-package-dbs: []
 
 nix:
-  packages: [eigen3_3, pkgconfig, cairo, zlib, gmp, ncurses, gcc]
+  packages: [eigen3_3, pkgconfig, cairo, zlib, gmp, ncurses, gcc, ihaskell]

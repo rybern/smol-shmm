@@ -31,6 +31,8 @@ library
                      , scientific
                      , smol
                      , mtl
+                     , random
+
 
 executable smol-profiling
   hs-source-dirs:      profiling
