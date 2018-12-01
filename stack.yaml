@@ -3,12 +3,18 @@ resolver: lts-12.14
 
 packages:
 - '.'
-- location: ../shmm
-  extra-dep: true
-- location: ../smol
-  extra-dep: true
+# - location:
+    # git: git@github.com:rybern/shmm #../shmm
+  # extra-dep: true
+# # - location:
+    # git: git@github.com:
+  # extra-dep: true
 
 extra-deps: 
+- github: rybern/smol
+  commit: 601c0b0f2faa43c14f382ac6084015f6011ec656
+- github: rybern/shmm
+  commit: d831c5d57d450fcce8e1dac5d7cc8cba35df7fc9
 - eigen-3.3.4.1
 - containers-0.5.11.0
 - gamma-0.9.0.2
