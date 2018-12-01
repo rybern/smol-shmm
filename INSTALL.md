@@ -9,3 +9,7 @@ Required:
 Optional:
  - ihaskell (for the Jupyter notebook)
  - cairo (for plotting)
+
+To build without Nix, run `stack build`. To build with Nix, run `stack build --nix`. To install globally on your machine, replace `build` with `install`.
+
+To open a Haskell REPL with SMoL-SHMM loaded automatically, run `stack ghci`.
